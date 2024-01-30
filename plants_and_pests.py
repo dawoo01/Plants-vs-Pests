@@ -11,7 +11,7 @@ import saver_and_loader
 
 #Functions
 
-def renderFarm(num, dict): #Function for rendering the farm. Takes a number (will be used to know how many lands are opened) and a dictionary. 
+def renderFarm(num, dict): #Function for rendering the farm. Takes a number (will be used to know how many lands are opened) and a dict. 
     for key in dict:
         if key <= num: #Opens the number of farmland the user will input.
             dict[key] = 'O'
